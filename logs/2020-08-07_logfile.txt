@@ -1,0 +1,39 @@
+2020-08-07 11:12:15.4894 INFO Attempted Get All Authors
+2020-08-07 11:12:19.7441 INFO Successfully got all Authors
+2020-08-07 11:13:43.9751 INFO Attempted Get All Authors
+2020-08-07 11:14:02.7280 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. The specified LocalDB instance does not exist.
+) - System.ComponentModel.Win32Exception (0x89C50107): Unknown error (0x89c50107)
+2020-08-07 11:27:11.9995 INFO Attempted to get author with id: 1
+2020-08-07 11:27:24.9533 WARN Author with id: 1 was not found
+2020-08-07 13:21:17.6893 INFO Author Submission Attempted
+2020-08-07 13:21:18.1632 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2020-08-07 13:22:43.9990 INFO Author Submission Attempted
+2020-08-07 13:22:49.5701 INFO Author Created
+2020-08-07 13:23:39.6798 INFO Author Submission Attempted
+2020-08-07 13:23:39.9877 INFO Author Created
+2020-08-07 13:25:34.1371 INFO Attempted Get All Authors
+2020-08-07 13:25:35.4183 INFO Successfully got all Authors
+2020-08-07 13:25:59.5786 INFO Attempted to get author with id: 1
+2020-08-07 13:26:00.1056 INFO Successfully got author with id: 1
+2020-08-07 13:26:03.9563 INFO Attempted to get author with id: 2
+2020-08-07 13:26:04.0488 INFO Successfully got author with id: 2
+2020-08-07 13:52:05.3545 INFO Attempted to get author with id: 1
+2020-08-07 13:52:11.5431 INFO Successfully got author with id: 1
+2020-08-07 13:56:23.4577 INFO Author Update Attempted - id 1
+2020-08-07 13:56:41.6491 INFO Author with id: 1 successfully updated
+2020-08-07 13:56:53.9465 INFO Attempted to get author with id: 1
+2020-08-07 13:56:55.3305 INFO Successfully got author with id: 1
+2020-08-07 13:57:54.5349 INFO Attempted Get All Authors
+2020-08-07 13:57:54.8369 INFO Successfully got all Authors
+2020-08-07 13:58:27.5997 INFO Attempted to get author with id: 1
+2020-08-07 13:58:27.7127 INFO Successfully got author with id: 1
+2020-08-07 14:09:07.5421 INFO Author with id: 1 Delete Attempted
+2020-08-07 14:09:14.1813 INFO Author with id: 1 successfully deleted
+2020-08-07 14:09:22.8636 INFO Author with id: 1 Delete Attempted
+2020-08-07 14:09:23.2850 WARN Author with id: 1 was not found
+2020-08-07 14:09:40.9802 INFO Author Update Attempted - id: 1
+2020-08-07 14:09:42.9655 ERROR Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. - 
