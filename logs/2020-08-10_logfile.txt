@@ -1,0 +1,62 @@
+2020-08-10 08:49:57.8911 INFO Books - GetBooks: Attempted Call
+2020-08-10 08:50:04.0441 INFO Books - GetBooks: Successful
+2020-08-10 08:50:17.4851 INFO Books - GetBook: Attempted Call for id: 1
+2020-08-10 08:50:19.2757 WARN Books - GetBook: Failed to retrieve record with id: 1
+2020-08-10 09:09:46.8489 INFO Books - Create: Create Allowed
+2020-08-10 09:09:47.4363 ERROR Books - Create: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Book
+System.Object -> BookStore_API.Data.Book - 
+2020-08-10 09:11:28.2581 INFO Books - Create: Create Allowed
+2020-08-10 09:11:38.4408 ERROR Books - Create: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors_AuthorId". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:35fb1733-b02a-48fb-a087-9f78c9f32f11
+Error Number:547,State:0,Class:16
+2020-08-10 09:11:56.4158 INFO Books - Create: Create Allowed
+2020-08-10 09:11:57.1472 INFO Books - Create: Creation was successful
+2020-08-10 09:11:57.1849 INFO Books - Create: BookStore_API.Data.Book
+2020-08-10 09:12:22.2555 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-08-10 09:12:23.9557 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-08-10 09:29:52.5446 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:29:59.9943 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-08-10 09:30:14.7138 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:30:15.7313 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-08-10 09:30:56.7505 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:30:58.8078 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-08-10 09:35:18.6407 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:35:25.0895 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-08-10 09:36:16.0678 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:36:23.0879 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-08-10 09:38:12.6014 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:38:28.0089 INFO Books - GetBooks: Successful
+2020-08-10 09:39:37.5281 INFO Books - Create: Create Allowed
+2020-08-10 09:39:39.1899 INFO Books - Create: Creation was successful
+2020-08-10 09:39:39.1899 INFO Books - Create: BookStore_API.Data.Book
+2020-08-10 09:41:16.6554 INFO Books - Update: Update Attempted on record with id: 2 
+2020-08-10 09:41:17.3992 INFO Books - Update: Record with id: 2 successfully updated
+2020-08-10 09:41:24.2760 INFO Books - GetBook: Attempted Call for id: 2
+2020-08-10 09:41:24.5817 INFO Books - GetBook: Successfully got record with id: 2
+2020-08-10 09:43:12.2134 INFO Books - GetBook: Attempted Call for id: 2
+2020-08-10 09:43:12.5407 INFO Books - GetBook: Successfully got record with id: 2
+2020-08-10 09:44:04.0554 INFO Books - GetBooks: Attempted Call
+2020-08-10 09:44:04.3951 INFO Books - GetBooks: Successful
+2020-08-10 10:33:16.1979 INFO Books - Create: Create Allowed
+2020-08-10 10:33:21.9125 INFO Books - Create: Creation was successful
+2020-08-10 10:33:21.9342 INFO Books - Create: BookStore_API.Data.Book
+2020-08-10 10:35:27.1632 INFO Books - Delete: Delete Attempted on record with id: 4 
+2020-08-10 10:35:29.8484 INFO Books - Delete: Record with id: 4 successfully deleted
+2020-08-10 10:37:45.7994 INFO Books - GetBook: Attempted Call for id: 4
+2020-08-10 10:37:46.3537 WARN Books - GetBook: Failed to retrieve record with id: 4
