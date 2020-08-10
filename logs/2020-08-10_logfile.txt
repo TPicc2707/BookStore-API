@@ -60,3 +60,41 @@ Error Number:547,State:0,Class:16
 2020-08-10 10:35:29.8484 INFO Books - Delete: Record with id: 4 successfully deleted
 2020-08-10 10:37:45.7994 INFO Books - GetBook: Attempted Call for id: 4
 2020-08-10 10:37:46.3537 WARN Books - GetBook: Failed to retrieve record with id: 4
+2020-08-10 12:55:20.0091 INFO Users - Login: Login Attempt from user admin 
+2020-08-10 12:55:21.7190 INFO Users - Login: admin Successfully Authenticated
+2020-08-10 13:50:43.2972 INFO Authors - GetAuthors: Attempted Call
+2020-08-10 13:50:44.2694 INFO Authors - GetAuthors: Successful
+2020-08-10 13:50:53.3704 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-08-10 13:50:53.8856 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-08-10 13:51:50.5375 INFO Users - Login: Login Attempt from user customer1 
+2020-08-10 13:51:52.5120 INFO Users - Login: customer1 Successfully Authenticated
+2020-08-10 13:53:31.9029 INFO Users - Login: Login Attempt from user admin 
+2020-08-10 13:53:32.6864 INFO Users - Login: admin Successfully Authenticated
+2020-08-10 13:57:40.9576 INFO Users - Login: Login Attempt from user admin 
+2020-08-10 13:57:44.2298 INFO Users - Login: admin Successfully Authenticated
+2020-08-10 13:57:59.3750 INFO Authors - Create: Create Allowed
+2020-08-10 13:58:00.5057 INFO Authors - Create: Creation was successful
+2020-08-10 13:58:00.5239 INFO Authors - Create: BookStore_API.Data.Author
+2020-08-10 13:58:26.1395 INFO Users - Login: Login Attempt from user admin 
+2020-08-10 13:58:27.5820 INFO Users - Login: admin Successfully Authenticated
+2020-08-10 14:00:08.0340 INFO Users - Login: Login Attempt from user admin 
+2020-08-10 14:00:09.7245 INFO Users - Login: admin Successfully Authenticated
+2020-08-10 14:00:43.7969 INFO Authors - Create: Create Allowed
+2020-08-10 14:00:44.8711 INFO Authors - Create: Creation was successful
+2020-08-10 14:00:44.9828 INFO Authors - Create: BookStore_API.Data.Author
+2020-08-10 14:02:31.4892 INFO Authors - Update: Update Attempted on record with id: 4 
+2020-08-10 14:02:31.9345 INFO Authors - Update: Record with id: 4 successfully updated
+2020-08-10 14:02:48.5100 INFO Authors - GetAuthor: Attempted Call for id: 4
+2020-08-10 14:02:48.8498 INFO Authors - GetAuthor: Successfully got record with id: 4
+2020-08-10 14:04:53.6559 INFO Users - Login: Login Attempt from user customer1 
+2020-08-10 14:04:55.7659 INFO Users - Login: customer1 Successfully Authenticated
+2020-08-10 14:05:15.1200 INFO Authors - Delete: Delete Attempted on record with id: 4 
+2020-08-10 14:05:16.0859 INFO Authors - Delete: Record with id: 4 successfully deleted
+2020-08-10 14:05:20.9972 INFO Authors - GetAuthor: Attempted Call for id: 4
+2020-08-10 14:05:21.3268 WARN Authors - GetAuthor: Failed to retrieve record with id: 4
+2020-08-10 14:05:42.4447 INFO Authors - GetAuthor: Attempted Call for id: 4
+2020-08-10 14:05:42.6054 WARN Authors - GetAuthor: Failed to retrieve record with id: 4
+2020-08-10 14:05:51.9363 INFO Authors - GetAuthor: Attempted Call for id: 4
+2020-08-10 14:05:52.3596 WARN Authors - GetAuthor: Failed to retrieve record with id: 4
+2020-08-10 14:05:55.3157 INFO Authors - GetAuthors: Attempted Call
+2020-08-10 14:05:55.6347 INFO Authors - GetAuthors: Successful
