@@ -1,0 +1,32 @@
+2020-08-11 08:18:33.9309 INFO Users - Register: Registration Attempt from customer3@gmail.com 
+2020-08-11 09:27:30.4009 INFO Users - Register: Registration Attempt from customer3@gmail.com 
+2020-08-11 09:27:32.3876 ERROR Users - Register: DuplicateUserName User name 'customer3@gmail.com' is already taken.
+2020-08-11 09:27:32.3936 ERROR Users - Register: customer3@gmail.com User Registration Attempt Failed
+2020-08-11 09:27:56.7169 INFO Users - Register: Registration Attempt from customer4@gmail.com 
+2020-08-11 09:37:48.1321 INFO Users - Register: Registration Attempt from dahlia@bookstore.com 
+2020-08-11 09:37:48.1321 INFO Users - Register: Registration Attempt from dahlia@bookstore.com 
+2020-08-11 09:37:51.5996 ERROR Users - Register: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.AspNetUsers' with unique index 'UserNameIndex'. The duplicate key value is (DAHLIA@BOOKSTORE.COM).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:81245a6e-3c91-4ee8-b2aa-a07e9c1ae82c
+Error Number:2601,State:1,Class:14
+2020-08-11 09:42:34.4495 INFO Users - Register: Registration Attempt from dahlia1@bookstore.com 
+2020-08-11 18:46:58.9070 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-11 18:46:58.9070 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-11 18:46:59.5971 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-11 18:46:59.6465 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-11 18:47:25.5783 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-11 18:47:26.2317 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-11 18:49:46.7201 INFO Users - Login: Login Attempt from user customer1@gmail.com 
+2020-08-11 18:49:47.7961 INFO Users - Login: customer1@gmail.com Not Authenticated

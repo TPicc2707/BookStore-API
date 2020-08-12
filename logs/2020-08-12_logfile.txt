@@ -1,0 +1,22 @@
+2020-08-12 08:08:02.7390 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-12 08:08:28.4307 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-12 08:13:50.3098 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-12 08:14:59.4212 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-12 08:15:39.9675 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-12 08:15:47.0902 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-12 08:50:07.8711 INFO Users - Login: Login Attempt from user admin@bookstore.com 
+2020-08-12 08:50:08.3493 INFO Users - Login: admin@bookstore.com Not Authenticated
+2020-08-12 08:50:44.7115 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-12 08:50:46.6121 INFO Users - Login: CUSTOMER4@GMAIL.COM Successfully Authenticated
+2020-08-12 08:51:15.4405 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-12 08:51:15.9615 INFO Users - Login: CUSTOMER4@GMAIL.COM Successfully Authenticated
+2020-08-12 09:13:16.4746 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-12 09:13:16.4746 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-12 09:13:16.4746 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-12 09:13:36.9437 INFO Users - Login: dahlia@bookstore.com Not Authenticated
+2020-08-12 09:13:37.0994 INFO Users - Login: dahlia@bookstore.com Not Authenticated
+2020-08-12 09:13:38.8711 INFO Users - Login: CUSTOMER4@GMAIL.COM Not Authenticated
+2020-08-12 09:14:15.5450 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-12 09:14:22.5610 INFO Users - Login: CUSTOMER4@GMAIL.COM Successfully Authenticated
+2020-08-12 09:29:49.9360 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-12 09:29:58.2285 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
