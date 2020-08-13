@@ -1,0 +1,61 @@
+2020-08-13 08:48:20.0250 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 08:48:22.5445 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 08:57:45.7864 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 08:57:46.3661 INFO Authors - GetAuthors: Successful
+2020-08-13 08:57:48.8443 INFO Authors - GetAuthor: Attempted Call for id: 3
+2020-08-13 08:57:49.1560 INFO Authors - GetAuthor: Successfully got record with id: 3
+2020-08-13 08:57:51.7015 INFO Authors - Delete: Delete Attempted on record with id: 3 
+2020-08-13 08:57:52.3799 INFO Authors - Delete: Record with id: 3 successfully deleted
+2020-08-13 08:57:52.5371 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 08:57:52.6030 INFO Authors - GetAuthors: Successful
+2020-08-13 09:17:14.6711 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 09:17:16.3547 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 09:17:21.6190 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 09:17:22.7213 INFO Authors - GetAuthors: Successful
+2020-08-13 09:29:02.4894 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 09:29:05.7801 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 09:29:12.0892 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 09:29:12.1045 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 09:30:48.8431 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 09:30:49.6183 INFO Authors - GetAuthors: Successful
+2020-08-13 09:56:22.6734 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 09:56:26.1039 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 09:56:34.9498 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 09:56:35.5095 INFO Authors - GetAuthors: Successful
+2020-08-13 10:07:40.4056 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 10:07:43.8987 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 10:07:52.2498 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 10:07:52.9075 INFO Authors - GetAuthors: Successful
+2020-08-13 10:21:15.3441 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 10:21:19.1133 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 10:21:35.8397 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 10:21:36.3781 INFO Authors - GetAuthors: Successful
+2020-08-13 10:23:31.1399 INFO Authors - Create: Create Allowed
+2020-08-13 10:23:47.2790 INFO Authors - Create: Creation was successful
+2020-08-13 10:23:48.8722 INFO Authors - Create: BookStore_API.Data.Author
+2020-08-13 10:23:53.0704 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 10:23:53.3935 INFO Authors - GetAuthors: Successful
+2020-08-13 12:26:23.7354 INFO Users - Login: Login Attempt from user dahlia@bookstore.com 
+2020-08-13 12:26:26.4372 INFO Users - Login: dahlia@bookstore.com Successfully Authenticated
+2020-08-13 12:26:34.9230 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:26:36.6435 INFO Authors - GetAuthors: Successful
+2020-08-13 12:26:45.3844 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-08-13 12:26:46.0329 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-08-13 12:26:54.9650 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:26:55.6119 INFO Authors - GetAuthors: Successful
+2020-08-13 12:27:05.2015 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-13 12:27:07.7394 INFO Users - Login: CUSTOMER4@GMAIL.COM Successfully Authenticated
+2020-08-13 12:27:11.2445 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:27:11.6429 INFO Authors - GetAuthors: Successful
+2020-08-13 12:27:14.2739 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-08-13 12:27:14.4602 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-08-13 12:27:16.7809 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:27:17.1035 INFO Authors - GetAuthors: Successful
+2020-08-13 12:33:32.5712 INFO Users - Login: Login Attempt from user CUSTOMER4@GMAIL.COM 
+2020-08-13 12:33:34.5000 INFO Users - Login: CUSTOMER4@GMAIL.COM Successfully Authenticated
+2020-08-13 12:33:46.6229 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:33:47.3828 INFO Authors - GetAuthors: Successful
+2020-08-13 12:33:50.1584 INFO Authors - GetAuthor: Attempted Call for id: 2
+2020-08-13 12:33:50.4896 INFO Authors - GetAuthor: Successfully got record with id: 2
+2020-08-13 12:33:53.6864 INFO Authors - GetAuthors: Attempted Call
+2020-08-13 12:33:54.0618 INFO Authors - GetAuthors: Successful
