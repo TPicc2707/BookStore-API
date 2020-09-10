@@ -1,0 +1,9 @@
+2020-09-10 09:24:13.7553 INFO Users - Login: Login Attempt from user tony@bookstore.com 
+2020-09-10 09:24:14.2557 INFO Users - Login: tony@bookstore.com Successfully Authenticated
+2020-09-10 09:24:17.3183 INFO Authors - GetAuthors: Attempted Call
+2020-09-10 09:24:17.5546 INFO Authors - GetAuthors: Successful
+2020-09-10 09:24:36.7082 INFO Authors - Create: Create Allowed
+2020-09-10 09:24:37.0911 INFO Authors - Create: Creation was successful
+2020-09-10 09:24:37.0997 INFO Authors - Create: BookStore_API.Data.Author
+2020-09-10 09:24:37.2747 INFO Authors - GetAuthors: Attempted Call
+2020-09-10 09:24:37.2928 INFO Authors - GetAuthors: Successful
